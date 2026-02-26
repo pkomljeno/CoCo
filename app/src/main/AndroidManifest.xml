@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:screenOrientation="landscape"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoCo"
+        tools:targetApi="31">
+        <activity
+            android:name=".bazaucenika"
+            android:exported="false"
+            android:theme="@style/Theme.CoCo"
+            />
+        <activity
+            android:name=".PrikazRezultataRacun"
+            android:exported="false"
+            android:theme="@style/Theme.CoCo"
+            />
+        <activity
+            android:name=".Prijava"
+            android:exported="false"
+            android:label="@string/title_activity_prijava"
+            android:theme="@style/Theme.CoCo"
+           />
+        <activity
+            android:name=".Kraj"
+            android:exported="false"
+            />
+        <activity
+            android:name=".PrikazRezultata"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Fragmentshower"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:lockTaskMode="if_whitelisted"
+             />
+        <activity
+            android:name=".IstekloVrijeme"
+            android:exported="false"
+           />
+        <activity
+            android:name=".Explain2"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Explain4"
+            android:exported="false"
+            />
+        <activity
+            android:name=".postavke"
+            android:exported="false"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

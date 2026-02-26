@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "766508274222",
+    "firebase_url": "https://coco-3f454-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "coco-3f454",
+    "storage_bucket": "coco-3f454.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766508274222:android:688a0aa51de8b4a14545bf",
+        "android_client_info": {
+          "package_name": "com.example.coco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE8q3KkFyZVaLZseNoeT3KX2zwGkh4JSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

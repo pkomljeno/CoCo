@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Zadatak1Fragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.95"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintWidth_percent="0.95">
+
+        <TextView
+            android:id="@+id/imeKut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ime"
+            android:textColor="@color/text"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.021" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 + 105 = "
+            android:textColor="@color/text"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.187" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num1"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.577" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num10"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_1"
+            app:layout_constraintBottom_toTopOf="@+id/num1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num11"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_2"
+            app:layout_constraintBottom_toTopOf="@+id/num"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toEndOf="@+id/num10"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num3"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/num1"
+            app:layout_constraintVertical_bias="0.036" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num5"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toEndOf="@+id/num3"
+            app:layout_constraintTop_toBottomOf="@+id/num"
+            app:layout_constraintVertical_bias="0.036" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num4"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/num3"
+            app:layout_constraintHorizontal_bias="0.973"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/num2"
+            app:layout_constraintVertical_bias="0.036" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num6"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/num7"
+            app:layout_constraintHorizontal_bias="0.973"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/num4"
+            app:layout_constraintVertical_bias="0.055" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num7"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/num3"
+            app:layout_constraintVertical_bias="0.055" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num8"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toEndOf="@+id/num7"
+            app:layout_constraintTop_toBottomOf="@+id/num5"
+            app:layout_constraintVertical_bias="0.055" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num2"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/num1"
+            app:layout_constraintHorizontal_bias="0.974"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.575" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num9"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey"
+            app:layout_constraintBottom_toTopOf="@+id/num2"
+            app:layout_constraintEnd_toStartOf="@+id/num10"
+            app:layout_constraintHorizontal_bias="0.973"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintVertical_bias="0.914" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/num"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numkey_5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toEndOf="@+id/num1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.576" />
+
+
+        <TextView
+            android:id="@+id/vrijeme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vrijeme"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.951"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.021" />
+
+        <EditText
+            android:id="@+id/unos"
+            android:layout_width="274dp"
+            android:layout_height="81dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/text"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/num11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.580" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
